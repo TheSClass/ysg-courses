@@ -1,0 +1,2 @@
+# Preserve the bytes used by catalog.json SHA-256 checksums on every platform.
+* -text

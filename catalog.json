@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "courses": [
+    {
+      "id": "city-park-nine",
+      "name": "City Park Nine",
+      "city": "Fort Collins, Colorado",
+      "version": 1,
+      "file": "courses/city-park-nine.json",
+      "sha256": "7acb4421f4dbcd5429a2b4059bf650f9ecceaf401ecfcbdbe7d7db1f01841cd7",
+      "image": "imagery/city-park-nine-v1.jpg",
+      "imageSha256": "299f2713ac159dd23e21fd964b3003047188f68d3f78b21f30c6fd1979541012"
+    },
+    {
+      "id": "collindale",
+      "name": "Collindale",
+      "city": "Fort Collins, Colorado",
+      "version": 3,
+      "file": "courses/collindale.json",
+      "sha256": "6fac5047702825e1b929cdc60c4579114730a20d973f0bbf010617b275825467",
+      "image": "imagery/collindale.jpg",
+      "imageSha256": "01794c38dee0f1baa0a3742e008ad132c7c7d28f9059354a126d85ce8e8c478e"
+    },
+    {
+      "id": "southridge",
+      "name": "Southridge",
+      "city": "Fort Collins, Colorado",
+      "version": 1,
+      "file": "courses/southridge.json",
+      "sha256": "1009647e2da089669c354b8c0d0810bbb211951fb6febcccfe19f80d1616f903",
+      "image": "imagery/southridge-v1.jpg",
+      "imageSha256": "89a20e1d138610902cda4dbc8dfb58c5afced2c264176305ab1d4fa119fe73fd"
+    }
+  ]
+}
