@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "courses": [
     {
+      "id": "bridlewood",
+      "name": "Bridlewood Golf Club",
+      "city": "Flower Mound, Texas",
+      "version": 1,
+      "file": "courses/bridlewood.json",
+      "sha256": "6417ccd3bbe2596b8aee8e7fddbdf625fd7d33dd707b49f6189af020c4cc5752",
+      "image": "imagery/bridlewood-v1.jpg",
+      "imageSha256": "f7723dc9dcca4a3c4dfee6cd6e3c469b974a9c79bd5b84e6dfe6c77afb913f8c"
+    },
+    {
       "id": "city-park-nine",
       "name": "City Park Nine",
       "city": "Fort Collins, Colorado",
@@ -20,6 +30,66 @@
       "sha256": "6fac5047702825e1b929cdc60c4579114730a20d973f0bbf010617b275825467",
       "image": "imagery/collindale.jpg",
       "imageSha256": "01794c38dee0f1baa0a3742e008ad132c7c7d28f9059354a126d85ce8e8c478e"
+    },
+    {
+      "id": "firewheel-bridges-champion-masters",
+      "name": "Firewheel Bridges - Champion / Masters",
+      "city": "Garland, Texas",
+      "version": 1,
+      "file": "courses/firewheel-bridges-champion-masters.json",
+      "sha256": "c53cffb4acc730c2fb0c1790f9bae4342f1f739851481496f700ebb1a2f0661d",
+      "image": "imagery/firewheel-v1.jpg",
+      "imageSha256": "706928610dceb9a0e80029f6b41a22c764d0da0e71caed023871527dd22bc756"
+    },
+    {
+      "id": "firewheel-bridges-masters-tradition",
+      "name": "Firewheel Bridges - Masters / Tradition",
+      "city": "Garland, Texas",
+      "version": 1,
+      "file": "courses/firewheel-bridges-masters-tradition.json",
+      "sha256": "0be1e82553dbf4c7eb6bcd32211e853ddd2f2c099d85811c849ab44269a50080",
+      "image": "imagery/firewheel-v1.jpg",
+      "imageSha256": "706928610dceb9a0e80029f6b41a22c764d0da0e71caed023871527dd22bc756"
+    },
+    {
+      "id": "firewheel-bridges-tradition-champion",
+      "name": "Firewheel Bridges - Tradition / Champion",
+      "city": "Garland, Texas",
+      "version": 1,
+      "file": "courses/firewheel-bridges-tradition-champion.json",
+      "sha256": "501e1ac09d338583e8ca584b016faef45c67d9f747254aa62be801261b618f97",
+      "image": "imagery/firewheel-v1.jpg",
+      "imageSha256": "706928610dceb9a0e80029f6b41a22c764d0da0e71caed023871527dd22bc756"
+    },
+    {
+      "id": "firewheel-lakes",
+      "name": "Firewheel - Lakes",
+      "city": "Garland, Texas",
+      "version": 1,
+      "file": "courses/firewheel-lakes.json",
+      "sha256": "ff714716ad0b39d98663320ebbf1a5296035634182ef70ddeea7496d4e13c0aa",
+      "image": "imagery/firewheel-v1.jpg",
+      "imageSha256": "706928610dceb9a0e80029f6b41a22c764d0da0e71caed023871527dd22bc756"
+    },
+    {
+      "id": "indian-creek-creek",
+      "name": "Indian Creek - Creek",
+      "city": "Carrollton, Texas",
+      "version": 1,
+      "file": "courses/indian-creek-creek.json",
+      "sha256": "d540b93b1e26fb119c1ce20e423f5bb952f59afb375a98e9a8177c2775bddd69",
+      "image": "imagery/indian-creek-v1.jpg",
+      "imageSha256": "65b27bcc2f8777833a27755792042388d4c95df9ff2759bd018d0368e11d5e84"
+    },
+    {
+      "id": "indian-creek-lakes",
+      "name": "Indian Creek - Lakes",
+      "city": "Carrollton, Texas",
+      "version": 1,
+      "file": "courses/indian-creek-lakes.json",
+      "sha256": "fe1973661bc680becfc07d0d801cc38509f0dfc5b5f9d916047e68ab51c149d3",
+      "image": "imagery/indian-creek-v1.jpg",
+      "imageSha256": "65b27bcc2f8777833a27755792042388d4c95df9ff2759bd018d0368e11d5e84"
     },
     {
       "id": "southridge",

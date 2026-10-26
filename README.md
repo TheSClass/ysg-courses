@@ -6,11 +6,24 @@ Public course downloads for **You suck at golf**, the Android and Wear OS golf a
 
 | Course | Holes | Par | Round choices | Package |
 | --- | --- | --- | --- | --- |
+| Bridlewood Golf Club, Flower Mound, TX | 18 | 72 | 18, front 9, back 9 | Version 1 |
 | City Park Nine, Fort Collins | 9 | 36 | 9 holes | Version 1 |
 | Collindale, Fort Collins | 18 | 71 | 18, front 9, back 9 | Version 3 |
+| Firewheel - Lakes, Garland, TX | 18 | 72 | 18, front 9, back 9 | Version 1 |
+| Firewheel Bridges - Champion / Masters, Garland, TX | 18 | 72 | 18, front 9, back 9 | Version 1 |
+| Firewheel Bridges - Masters / Tradition, Garland, TX | 18 | 71 | 18, front 9, back 9 | Version 1 |
+| Firewheel Bridges - Tradition / Champion, Garland, TX | 18 | 71 | 18, front 9, back 9 | Version 1 |
+| Indian Creek - Creek, Carrollton, TX | 18 | 72 | 18, front 9, back 9 | Version 1 |
+| Indian Creek - Lakes, Carrollton, TX | 18 | 72 | 18, front 9, back 9 | Version 1 |
 | Southridge, Fort Collins | 18 | 71 | 18, front 9, back 9 | Version 1 |
 
-All three include tee yardages, green-center coordinates, hole routes and offline aerial images. The new City Park Nine and Southridge packages were checked against the city's linked 2026 scorecards and course diagrams on October 23, 2026. Community-mapped green centers still need an on-course check.
+All ten entries include tee yardages, green-center coordinates, approximate hole routes and offline aerial images. City Park Nine and Southridge were checked against the city's linked 2026 scorecards and course diagrams on October 23, 2026. The seven Texas entries were checked against the operators' linked scorecards and available maps on October 26, 2026. Map-derived green centers still need an on-course check; imagery is archival and does not establish current tee-marker or pin positions.
+
+The Bridges names give the playing order: **Front 9** selects the first named loop and **Back 9** the second. For example, Champion / Masters → Back 9 plays Masters as holes 10-18. All three combinations reuse the same 27 physical holes.
+
+**Firewheel limitations:** Old is not included pending verification following its 2025 green renovation. Lakes uses par 4 on hole 10 and total par 72; the linked card's main row permits 4/5 and 72/73, while the Red row and course description use 4 and 72. The app currently has one par per hole. Bridges uses the official card's per-nine stroke-index ranks, normalized to odd indexes on the first nine and even on the second; this is an app allocation, not a verified official combined-course allocation. Published Bridges ratings either disagree with the card lengths or lack a matching official rating table. Every Firewheel tee therefore has `ratingsVerified: false` and these rounds do not enter handicap estimates. Scoring, yardages and history work normally.
+
+Bridlewood and both Indian Creek courses include official scorecard tee lengths and verified ratings, including women's tees. The app currently uses the main men's stroke-index row for all tees; separate women's stroke-index rows are not supported. Bridlewood's mislabeled community-map hole 1 was corrected, and its Black hole 14 follows the linked card's 402 yards.
 
 City Park Nine uses its nine physical holes once. Its scorecard prints two loops with 18-hole ratings; these are retained under the explicit category **18-hole card**, with `ratingsVerified: false`. They are not nine-hole ratings. The main stroke-index row is ranked from 1-9; Red's separate handicap row is not supported by the app's current single-row schema. Nine-hole rounds do not enter the app's handicap estimate.
 
@@ -26,9 +39,9 @@ Southridge's printed Red back-nine/full totals omit the last hole's 99 yards. Th
    ```
 
 3. Tap **Refresh catalog**, then **Download** or **Update** next to the desired course.
-4. Let the phone sync with the watch. Your friend can use the same catalog URL; downloading does not need a GitHub login or token.
+4. Choose the downloaded course when starting a new round, then select 18 holes, Front 9 or Back 9 where available. Let the phone sync with the watch. Your friend can use the same catalog URL; downloading does not need a GitHub login or token.
 
-No Pages hosting, API key, paid server, or app rebuild is required. A repository owner can update the files; app users can only download them. Course metadata, green coordinates, and map images remain on each device for offline play. Starting a new round uses the latest installed course; existing rounds retain their original course snapshot.
+No Pages hosting, API key, paid server, or app rebuild is required. A repository owner can update the files; app users can only download them. Course metadata, green coordinates, and map images remain on each device for offline play. Starting a new round uses the chosen installed course's latest version; existing rounds retain their original course snapshot.
 
 For a fork or separate host, keep `catalog.json`, `courses/` and `imagery/` in the same relative layout and use that host's direct HTTPS catalog URL.
 
@@ -45,4 +58,6 @@ The phone sends downloaded courses and images to its paired watch through normal
 
 ## Included sources and licensing
 
-Each course JSON identifies its City of Fort Collins scorecard, course page, OpenStreetMap geometry and USGS aerial imagery sources; Collindale also identifies its USGA tee-rating source. OpenStreetMap-derived geometry is attributed to © OpenStreetMap contributors and distributed under the [Open Database License](https://www.openstreetmap.org/copyright). The included USGS aerial images are public-domain material from The National Map. Keep these credits with redistributed course data; check each future source's terms separately. The catalog is not affiliated with the courses, USGA, or map providers.
+Each course JSON identifies its official scorecard, course page and mapping sources, plus separate rating references where needed. Firewheel hole identification was compared with Garland's numbered course diagram and public GolfTraxx references. Green centers use OpenStreetMap polygons where available and explicit USGS aerial picks otherwise. Bridges tee/route lines were traced approximately from the aerial because the reference site's calculated tee positions use mismatched scorecards. No commercial map screenshots or scorecard artwork are redistributed here.
+
+OpenStreetMap-derived geometry is attributed to © OpenStreetMap contributors and distributed under the [Open Database License](https://www.openstreetmap.org/copyright). The included USGS aerial images are public-domain material from The National Map. Keep these credits with redistributed course data; check each future source's terms separately. The catalog is not affiliated with the courses, USGA, or map providers.
